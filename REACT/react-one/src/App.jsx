@@ -1,4 +1,4 @@
-import Button from "./Button/Button";
+import Button from "./Button";
 import Footer from "./Footer";
 
 function App() {
