@@ -2,6 +2,7 @@ import Button from "./Button";
 import Counter from "./Counter";
 import Footer from "./Footer";
 import Info from "./Info";
+import InputChange from "./InputChange";
 import List from "./List";
 import "./index.css";
 
@@ -24,6 +25,7 @@ function App() {
           />
           <Info />
         </div>
+        <InputChange />
         <Counter />
         <List />
         <Button />
