@@ -4,6 +4,7 @@ export default function InputChange() {
   const [name, setName] = useState("Guest");
   const [comment, setComment] = useState("");
   const [payment, setPayment] = useState("");
+  const [shipping, setShipping] = useState("");
   const handleChange = (e) => {
     setName(e.target.value);
   };
@@ -12,6 +13,9 @@ export default function InputChange() {
   };
   const handlePayment = (e) => {
     setPayment(e.target.value);
+  };
+  const handleShipping = (e) => {
+    setShipping(e.target.value);
   };
   return (
     <>
@@ -30,6 +34,26 @@ export default function InputChange() {
         <option value="Mpesa"> Mpesa</option>
       </select>
       <p>Payment: {payment}</p>
+      <label>
+        <input
+          type="radio"
+          value="pickup"
+          onChange={handleShipping}
+          checked={shipping === "pickup"}
+        />
+        Pickup
+      </label>
+      <br />
+      <label>
+        <input
+          type="radio"
+          value="delivery"
+          onChange={handleShipping}
+          checked={shipping === "delivery"}
+        />
+        Delivery
+      </label>
+      <p>Shipping: {shipping}</p>
     </>
   );
 }
