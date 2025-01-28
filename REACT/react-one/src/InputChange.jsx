@@ -37,9 +37,9 @@ export default function InputChange() {
       <label>
         <input
           type="radio"
-          value="pickup"
+          value="Pickup"
           onChange={handleShipping}
-          checked={shipping === "pickup"}
+          checked={shipping === "Pickup"}
         />
         Pickup
       </label>
@@ -47,9 +47,9 @@ export default function InputChange() {
       <label>
         <input
           type="radio"
-          value="delivery"
+          value="Delivery"
           onChange={handleShipping}
-          checked={shipping === "delivery"}
+          checked={shipping === "Delivery"}
         />
         Delivery
       </label>
