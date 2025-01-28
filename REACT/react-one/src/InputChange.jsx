@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function InputChange() {
-  const [name, setName] = useState();
+  const [name, setName] = useState("Guest");
   const handleChange = (e) => {
     setName(e.target.value);
   };
