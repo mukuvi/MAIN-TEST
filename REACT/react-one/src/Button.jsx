@@ -4,6 +4,14 @@ const styles = {
   backgroundColor: "lightgreen",
 };
 function Button() {
-  return <button style={styles}>Click Me!</button>;
+  function handleClick() {
+    handleClick.textContent = "clicked";
+  }
+
+  return (
+    <button style={styles} onClick={handleClick}>
+      Click Me!
+    </button>
+  );
 }
 export default Button;
