@@ -9,7 +9,7 @@ function List() {
   const fruitsEl = fruits.map((fruit) => <li>{fruit}</li>);
   const studentsEl = students.map((student) => (
     <li>
-      {student.name}&copy; &nbsp;{student.age}
+      {student.name} &nbsp;{student.age}
     </li>
   ));
   return (
