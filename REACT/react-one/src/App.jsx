@@ -1,4 +1,5 @@
 import Button from "./Button";
+import Counter from "./Counter";
 import Footer from "./Footer";
 import Info from "./Info";
 import List from "./List";
@@ -23,6 +24,7 @@ function App() {
           />
           <Info />
         </div>
+        <Counter />
         <List />
         <Button />
         <Footer />
