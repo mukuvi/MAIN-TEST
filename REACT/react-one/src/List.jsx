@@ -14,7 +14,7 @@ function List() {
   ));
   return (
     <>
-      <ol>{fruitsEl}</ol>
+      <ol> {fruitsEl.length > 0 && fruitsEl}</ol>
       <ol>{studentsEl}</ol>
     </>
   );
