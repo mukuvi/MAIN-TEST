@@ -4,13 +4,18 @@ const styles = {
   backgroundColor: "lightgreen",
 };
 function Button() {
-  function handleClick() {
-    handleClick.textContent = "clicked";
-  }
-
+  const handleClick = (e) => {
+    if (e.target.textContent === "Start !") {
+      e.target.textContent = "Stop !";
+      e.target.style.backgroundColor = "red";
+    } else {
+      e.target.textContent = "Start !";
+      e.target.style.backgroundColor = "lightgreen";
+    }
+  };
   return (
-    <button style={styles} onClick={handleClick}>
-      Click Me!
+    <button style={styles} onClick={(e) => handleClick(e)}>
+      Start !
     </button>
   );
 }
