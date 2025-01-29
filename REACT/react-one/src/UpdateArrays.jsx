@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function UpdateArrays() {
   const [foods, setFoods] = useState(["banana", "mango", "orange"]);
-  const handleFoods = (e) => {
+  const handleFoods = () => {
     const newFood = document.getElementById("foodInput").value;
     setFoods((prevFood) => [...prevFood, newFood]);
     document.getElementById("foodInput").value = "";
@@ -11,8 +11,8 @@ export default function UpdateArrays() {
     <>
       <h3>LIST FOOD</h3>
       <ul>
-        {foods.map((food) => (
-          <li>{food}</li>
+        {foods.map((food, index) => (
+          <li key={index}>{food}</li>
         ))}
       </ul>
       <input type="text" id="foodInput" placeholder="Enter food" />
