@@ -1,4 +1,5 @@
 import Button from "./Button";
+import ChangeObject from "./ChangeObject";
 import Counter from "./Counter";
 import Footer from "./Footer";
 import Info from "./Info";
@@ -24,7 +25,8 @@ function App() {
             isGender={false}
           />
           <Info />
-        </div>
+        </div>{" "}
+        <ChangeObject />
         <InputChange />
         <Counter />
         <List />
