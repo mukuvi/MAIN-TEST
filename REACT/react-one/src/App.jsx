@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Info from "./Info";
 import InputChange from "./InputChange";
 import List from "./List";
+import UpdateArrays from "./UpdateArrays";
 import "./index.css";
 
 function App() {
@@ -25,9 +26,10 @@ function App() {
             isGender={false}
           />
           <Info />
-        </div>{" "}
-        <ChangeObject />
+        </div>
+        <UpdateArrays />
         <InputChange />
+        <ChangeObject />
         <Counter />
         <List />
         <Button />
