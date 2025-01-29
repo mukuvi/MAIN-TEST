@@ -34,7 +34,6 @@ function App() {
         {/* <ChangeUpdate />
         <UpdateArrays /> */}
         {/* <UpdatingObjects /> */}
-        <Fyoung />
 
         {/* <InputChange /> */}
         {/* <ChangeObject /> */}
