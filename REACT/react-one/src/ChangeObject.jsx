@@ -6,11 +6,18 @@ export default function ChangeObject() {
     make: "toyota",
     model: "hilux",
   });
+  const handleYear = (e) => {
+    setCar({ year: 2025 });
+  };
   return (
     <>
       <p>
         i love {car.make} {car.model} {car.year}
       </p>
+      <input value={car.year} onChange={handleYear} />
+      <input value={car.make} />
+      <input value={car.model} />
+      <br />
     </>
   );
 }
