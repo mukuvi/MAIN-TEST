@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Redo() {
+export default function ChangeUpdate() {
   const [students, setStudents] = useState(["james", "john", "julia", "mercy"]);
   const handleAddStudents = () => {
     const newStudent = document.getElementById("studeID").value;
