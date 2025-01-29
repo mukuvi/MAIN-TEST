@@ -3,6 +3,7 @@ import ChangeObject from "./ChangeObject";
 import ChangeUpdate from "./ChangeUpdate";
 import Counter from "./Counter";
 import Footer from "./Footer";
+import Fyoung from "./Fyoung";
 import Info from "./Info";
 import InputChange from "./InputChange";
 import List from "./List";
@@ -32,7 +33,8 @@ function App() {
         </div>
         {/* <ChangeUpdate />
         <UpdateArrays /> */}
-        <UpdatingObjects />
+        {/* <UpdatingObjects /> */}
+        <Fyoung />
 
         {/* <InputChange /> */}
         {/* <ChangeObject /> */}
