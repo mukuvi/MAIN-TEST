@@ -8,10 +8,4 @@ function Info(props) {
     </div>
   );
 }
-Info.defaultProps = {
-  name: "jones",
-  age: 20,
-  school: "school of engineering",
-  isGender: true,
-};
 export default Info;

@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import Info from "./Info";
 import InputChange from "./InputChange";
 import List from "./List";
+import ToDoList from "./ToDoList";
 
 import UpdateArrays from "./UpdateArrays";
 import UpdatingObjects from "./UpdatingObjects";
@@ -16,7 +17,7 @@ function App() {
   return (
     <>
       <div>
-        <div className="info-data">
+        {/* <div className="info-data">
           <Info
             name="james"
             age="21"
@@ -29,8 +30,8 @@ function App() {
             school="school of medicine"
             isGender={false}
           />
-          <Info />
-        </div>
+        </div> */}
+
         {/* <ChangeUpdate />
         <UpdateArrays /> */}
         {/* <UpdatingObjects /> */}
@@ -39,6 +40,7 @@ function App() {
         {/* <ChangeObject /> */}
         {/* <Counter /> */}
         {/* <List /> */}
+        <ToDoList />
         <Button />
         <Footer />
       </div>
