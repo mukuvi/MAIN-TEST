@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Info from "./Info";
 import InputChange from "./InputChange";
 import List from "./List";
+import Redo from "./Redo";
 import UpdateArrays from "./UpdateArrays";
 import "./index.css";
 
@@ -27,11 +28,12 @@ function App() {
           />
           <Info />
         </div>
-        <UpdateArrays />
-        <InputChange />
-        <ChangeObject />
-        <Counter />
-        <List />
+        {/* <UpdateArrays /> */}
+        <Redo />
+        {/* <InputChange /> */}
+        {/* <ChangeObject /> */}
+        {/* <Counter /> */}
+        {/* <List /> */}
         <Button />
         <Footer />
       </div>
