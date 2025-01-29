@@ -8,6 +8,7 @@ import InputChange from "./InputChange";
 import List from "./List";
 
 import UpdateArrays from "./UpdateArrays";
+import UpdatingObjects from "./UpdatingObjects";
 import "./index.css";
 
 function App() {
@@ -29,8 +30,9 @@ function App() {
           />
           <Info />
         </div>
-        <ChangeUpdate />
-        {/* <UpdateArrays /> */}
+        {/* <ChangeUpdate />
+        <UpdateArrays /> */}
+        <UpdatingObjects />
 
         {/* <InputChange /> */}
         {/* <ChangeObject /> */}
