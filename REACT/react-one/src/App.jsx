@@ -43,7 +43,7 @@ function App() {
         {/* <Counter /> */}
         {/* <List /> */}
         {/* <ToDoList /> */}
-        <EffectHook />
+
         <Button />
         <Footer />
       </div>
