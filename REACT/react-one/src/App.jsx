@@ -2,7 +2,7 @@ import Button from "./Button";
 import ChangeObject from "./ChangeObject";
 import ChangeUpdate from "./ChangeUpdate";
 import Counter from "./Counter";
-import EffectHook from "./EffectHook";
+
 import Footer from "./Footer";
 
 import Info from "./Info";
