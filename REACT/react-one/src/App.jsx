@@ -2,6 +2,7 @@ import Button from "./Button";
 import ChangeObject from "./ChangeObject";
 import ChangeUpdate from "./ChangeUpdate";
 import Counter from "./Counter";
+import EffectHook from "./EffectHook";
 import Footer from "./Footer";
 
 import Info from "./Info";
@@ -11,6 +12,7 @@ import ToDoList from "./ToDoList";
 
 import UpdateArrays from "./UpdateArrays";
 import UpdatingObjects from "./UpdatingObjects";
+
 import "./index.css";
 
 function App() {
@@ -40,7 +42,8 @@ function App() {
         {/* <ChangeObject /> */}
         {/* <Counter /> */}
         {/* <List /> */}
-        <ToDoList />
+        {/* <ToDoList /> */}
+        <EffectHook />
         <Button />
         <Footer />
       </div>
