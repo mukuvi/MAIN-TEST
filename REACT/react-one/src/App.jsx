@@ -42,7 +42,7 @@ function App() {
         {/* <ChangeObject /> */}
         {/* <Counter /> */}
         {/* <List /> */}
-        {/* <ToDoList /> */}
+        <ToDoList />
 
         <Button />
         <Footer />
