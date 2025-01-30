@@ -9,6 +9,4 @@ export default function EffectHook() {
     <>
       <p>Count: {count}</p>
       <button onClick={addCount}>Add</button>
-    </>
-  );
-}
+\
