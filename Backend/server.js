@@ -5,5 +5,5 @@ const PORT = 8383;
 app.get("/", (req, res) => {});
 
 app.listen(PORT, () => {
-  console.log(`server is running ${PORT}`);
+  console.log(`server is has started on port: ${PORT}`);
 });
