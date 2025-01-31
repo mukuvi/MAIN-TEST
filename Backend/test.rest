@@ -5,7 +5,8 @@ GET http://localhost:8383/
 
 GET http://localhost:8383/api/data
 
-###DATA ENDPOINT FOR ADDING A USER
+
+### DATA END POINT FOR ADDING A USER
 
 POST http://localhost:8383/api/data
 Content-Type: application/json
@@ -13,3 +14,8 @@ Content-Type: application/json
 {
     "name":"julia"
 }
+
+
+### DELETE END POINT
+
+DELETE http://localhost:8383/api/data
