@@ -5,10 +5,21 @@ let data = ["james"];
 
 //middleware
 app.use(express.json());
-app.get("/", (req, res) => {
-  res.send(`<body><h1>DATA</h1><p>${JSON.stringify(data)}</p> </body>`);
-});
+
 // CRUD-method      Create-post    Read-get Update-put      Delete-delete
+
+app.get("/", (req, res) => {
+  res.send(`<body><h1>DATA</h1><p>${JSON.stringify(data)}</p> 
+  <a href="/dashboard">Dashboard</a>
+  </body>`);
+});
+app.get("/dashboard", (req, res) => {
+  res.send(`
+    <body>
+    <a href="/">Home</a>
+    </body>
+    `);
+});
 
 app.get("/api/data", (req, res) => {
   res.send(data);

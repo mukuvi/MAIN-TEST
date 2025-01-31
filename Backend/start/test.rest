@@ -1,13 +1,14 @@
 //REST Client extension
-### Endpoint
+### TEST GET /WEBSITE
 GET http://localhost:8383/
-###DATA ENDPOINT
 
+### TEST GET / DASHBOARD WEBSITE
+GET http://localhost:8383/dashboard
+
+###DATA ENDPOINT
 GET http://localhost:8383/api/data
 
-
 ### DATA END POINT FOR ADDING A USER
-
 POST http://localhost:8383/api/data
 Content-Type: application/json
 
