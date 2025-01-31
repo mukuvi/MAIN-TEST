@@ -15,13 +15,16 @@
 
 body {
   margin: 0;
-  display: flex;
+
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
   background-color: #1a1a1a;
   color: #f9f9f9;
   user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .info {
   border: 1px solid #1a1a1a;
