@@ -5,7 +5,8 @@ import { fileURLToPath } from "url";
 const app = express();
 const PORT = process.env.PORT || 5000;
 //Get the file path from the URL of the current module
-const __filename = fileURLToPath();
+const __filename = fileURLToPath(import.meta.url);
+
 app.get("/", (req, res) => {
   res.sendFile(path);
 });
