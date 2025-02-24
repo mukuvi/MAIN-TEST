@@ -1,7 +1,6 @@
 async function makeData() {
-  const message = await fetch("https://jsonplaceholder.typicode.com/users")
+  const message = await fetch("https://jsonplaceholder.typicode.com/users/1")
     .then((response) => response.json())
-    .then((json) => data);
-  console.log(data);
+    .then((data) => console.log(data));
 }
 makeData();
