@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const PORT = 8383;
-let data = ["james"];
+let data = ["jamess"];
 
 //middleware
 app.use(express.json());
