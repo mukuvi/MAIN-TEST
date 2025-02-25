@@ -1,15 +1,16 @@
 async function fetchData() {
   try {
-    const response = await fetch("https://jsonplaceholder.typicode.com/users/1")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("The response is not ok");
-        }
-        return response.json();
-      })
-      .then((data) => console.log(data));
+    const response = await fetch(
+      "https://jsonplaceholder.typicode.com/users/1"
+    );
+
+    if (!response.ok) {
+      throw new Error("The response is not ok");
+    }
+    const data = await response.json();
+    console.log(data);
   } catch (error) {
-    console.log(`Wrong syntax ${error}`);
+    console.log(error);
   }
 }
 fetchData();
