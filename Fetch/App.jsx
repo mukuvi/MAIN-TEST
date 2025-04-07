@@ -15,7 +15,7 @@ function App() {
       } catch (err) {
         console.error(err);
       } finally {
-        setMyData("Data loadedd");
+        setMyData("Data loaded");
       }
     }
 
