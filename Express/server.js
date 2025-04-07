@@ -15,4 +15,4 @@ app.get("/user/:id", (req, res) => {
   res.send(`User ID is ${userId}`);
 });
 
-app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server is running on port; ${PORT}`));
