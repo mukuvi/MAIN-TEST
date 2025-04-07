@@ -1,4 +1,3 @@
-import "./App.css";
 import { db } from ".firebase";
 import {
   collection,
