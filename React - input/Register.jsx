@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Registered from "../components/Registered";
+import Registered from "./Registered";
 
 export default function Register() {
   const [formData, setFormData] = useState({
@@ -16,7 +16,7 @@ export default function Register() {
         ...prevData,
         [event.target.name]: event.target.value,
       };
-    }); //
+    });
   }
   console.log(formData);
 

@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <>
-      <p>&copy; {new Date().getFullYear()} react-one </p>
+      <p>&copy; {new Date().getFullYear()} mukuvi </p>
     </>
   );
 }
